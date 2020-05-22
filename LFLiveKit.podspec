@@ -17,4 +17,5 @@ Pod::Spec.new do |s|
   s.libraries = "c++", "z"
 
   s.requires_arc = true
+  s.dependency 'GPUImage',"0.1.7.001"
 end
